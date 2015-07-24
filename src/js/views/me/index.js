@@ -83,8 +83,9 @@ module.exports = React.createClass({
 		) : (
 			<Container direction="column">
 				<Container fill align="center" justify="center" direction="column" scrollable className="MeRegistration__body">
-					<div className="MeRegistration__heading">ReactEurope 2015</div>
-					<p className="MeRegistration__intro">Register to get the most out of ReactEurope&nbsp;2015!</p>
+					<div className="MeRegistration__heading">METRO Group</div>
+					<div className="MeRegistration__heading">meet IT 2015</div>
+					<p className="MeRegistration__intro">Register to get the most out of meet IT 2015!</p>
 					<div className="MeRegistration__benefits">
 						<div className="MeRegistration__benefit">
 							<div className="MeRegistration__benefit__icon ion-qr-scanner" />
