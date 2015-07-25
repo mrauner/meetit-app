@@ -2,7 +2,7 @@
   "people": [
     {
       "id": "55826a39a982d103008c4b20",
-      "name": "Christopher Chedeau",
+      "name": "Michael Rauner",
       "bio": "Frenchy Front-end Engineer at Facebook. Working on React.",
       "github": "vjeux",
       "isOrganiser": true,
@@ -571,7 +571,7 @@
       "endTime": "2015-07-02T06:45:00.000Z",
       "startTime": "2015-07-02T06:30:00.000Z",
       "type": "other",
-      "title": "Registration",
+      "title": "RRRegistration",
       "description": "<p>Make sure to get in early.</p>\n",
       "speakers": [],
       "id": "55826a3ba982d103008c4b4a",

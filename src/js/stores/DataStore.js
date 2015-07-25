@@ -19,11 +19,11 @@ function DataStore () {
 	this.__preprocess(storage)
 
 // 	TODO maybe window.addEventListener('online', this.updateOnlineStatus);
-// 	TODO maybe window.addEventListener('offline', this.updateOnlineStatus);
+// 	TODO maybe window.addEventLeistener('offline', this.updateOnlineStatus);
 
 	// generic API queue
 	var self = this
-	var url = 'https://reacteu-api.herokuapp.com/api'
+	var url = 'http://ec2-54-186-133-234.us-west-2.compute.amazonaws.com/api'
 	this.apiQueue = async.queue(function (opts, callback) {
 		var { authToken } = storage
 		var { endpoint, data } = opts
