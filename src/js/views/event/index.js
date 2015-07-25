@@ -73,7 +73,7 @@ module.exports = React.createClass({
 	},
 
 	openAddress () {
-		window.open('http://maps.apple.com/?daddr=327+Rue+de+Charenton,+75012+Paris,+France', '_blank', 'toolbar=yes,location=no,transitionstyle=coververtical')
+		window.open('https://www.google.com/maps/dir//Metro-Straße+1,+40235+Düsseldorf,+Deutschland', '_blank', 'toolbar=yes,location=no,transitionstyle=coververtical')
 	},
 
 	render () {
@@ -113,21 +113,21 @@ module.exports = React.createClass({
 			<Container fill scrollable={scrollable} ref="scrollContainer" className="EventInfo">
 				<div className="EventInfo__hero">
 					<div className="EventInfo__hero-inner">
-						<div className="EventInfo__hero_title">Espace Charenton</div>
-						<div className="EventInfo__hero_address">327, rue de Charenton 75012 Paris</div>
+						<div className="EventInfo__hero_title">METRO AG Headquarters</div>
+						<div className="EventInfo__hero_address">Metrostraße 1, 40235 Düsseldorf</div>
 						<Tappable onTap={this.openAddress} className="EventInfo__hero_button button">Get Directions</Tappable>
-						<div className="EventInfo__hero_date">July 02 &amp; 03 &mdash; Paris, France</div>
+						<div className="EventInfo__hero_date">October 1st, 2015 Düsseldorf, Germany</div>
 					</div>
 				</div>
-				<div className="EventInfo__summary text-block">ReactEurope is the occasion to meet the core team and other awesome members of the community to learn, socialize and have fun in the beautiful city of Paris with great food, entertainment, connectivity, prizes and more!</div>
+				<div className="EventInfo__summary text-block">METRO meet IT 2015 is the occasion to meet CIOs to learn, socialize and have fun in the beautiful city of Düsseldorf with great food, entertainment, connectivity and more!</div>
 				<div className="button-table">
 					<Tappable onTap={this.openTwitter.bind(this, eventTwitter)} className="button-table__item EventInfo__link">
 						<span className="button-table__item__icon EventInfo__link__icon--twitter ion-social-twitter" />
-						<div className="button-table__item__label">@ReactEurope</div>
+						<div className="button-table__item__label">@meetit2015</div>
 					</Tappable>
 					<Tappable onTap={this.openFacebook.bind(this, eventFacebook)} className="button-table__item EventInfo__link">
 						<span className="button-table__item__icon EventInfo__link__icon--facebook ion-social-facebook" />
-						<div className="button-table__item__label">ReactEurope</div>
+						<div className="button-table__item__label">METRO meet IT 2015</div>
 					</Tappable>
 				</div>
 				<PeopleList people={organisers} heading="Organisers" previousView="event" className="EventInfo__organisers" />
