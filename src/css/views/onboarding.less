@@ -140,6 +140,7 @@
 	.button-press();
 	.square(100px);
 	background-color: white;
+	border: 1px solid rgb(0, 64, 111);
 	border-radius: 50%;
 	display: inline-block;
 	margin-bottom: 1em;
@@ -167,7 +168,7 @@
 
 	> svg {
 		.square(@scanbutton-image-size);
-		fill: @app-primary;
+		fill: black;
 	}
 }
 .onboarding-scan__icon {
@@ -227,12 +228,12 @@
 // input
 
 .onboarding-form__input {
-	.placeholder(rgba(255, 255, 255, 0.5));
+	.placeholder(rgb(0, 64, 111));
 	background: none;
 	border: none;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	border-bottom: 1px solid rgb(0, 64, 111);
 	border-radius: 0;
-	color: white;
+	color: rgb(0, 64, 111);
 	font-size: 18px;
 	line-height: 1.2;
 	height: @form-component-size;
@@ -261,7 +262,7 @@
 	-webkit-appearance: none;
 
 	// icon begins as an arrow pointing right
-	.ionicon(inherit, @ionicon-var-arrow-right-c, 32px);
+	.ionicon(rgb(0, 64, 111), @ionicon-var-arrow-right-c, 32px);
 
 	// update the icon to a spinner
 	&.is-loading {

@@ -142,8 +142,8 @@ module.exports = React.createClass({
 			}
 			results = (
 				<Container fill scrollable={scrollable} ref="scrollContainer">
-					<PeopleList people={organisers} heading="Organisers" headingIsSticky previousView="people" />
 					<PeopleList people={speakers} heading="Speakers" headingIsSticky previousView="people" />
+					<PeopleList people={organisers} heading="Organisers" headingIsSticky previousView="people" />
 					<PeopleList people={attendees.slice(0,20)} heading="Attendees" headingIsSticky previousView="people" />
 					{attendeesMessage}
 				</Container>
